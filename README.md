@@ -15,6 +15,7 @@
 * Exemple d'implémentation sans trop de calculs __(fr)__
     * http://www.ferdinandpiette.com/blog/2011/08/implementer-un-pid-sans-faire-de-calculs/
 
+
 ## 3. Pseudocode _(récupéré de [ce site](http://www.ferdinandpiette.com/blog/2011/08/implementer-un-pid-sans-faire-de-calculs/))_:
 >`Kp`, `Ki` et `Kd` sont des __constantes__ dans le code dont il faut déterminer les valeurs optimales.
 >__Une grosse partie du travail consistera à déterminer les bonnes valeurs.__
@@ -30,3 +31,7 @@ Tous les x millisecondes, faire :
     commande = Kp * erreur + Ki * somme_erreurs + Kd * variation_erreur;
     erreur_précédente = erreur
 ```
+
+## 4. Annexes
+* Chaîne youtube de vulgarisation des principes de robotique et physique
+    * https://www.youtube.com/user/ControlLectures/playlists
