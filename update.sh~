@@ -1,0 +1,5 @@
+#!/bin/bash
+cp prototype.wiki/PIDalgorithms.md README.md
+git add --all
+git commit -m "update from script"
+git push origin master
