@@ -35,3 +35,5 @@ Tous les x millisecondes, faire :
 ## 4. Annexe
 * Chaîne youtube de vulgarisation des principes de robotique et physique
     * https://www.youtube.com/user/ControlLectures/playlists
+* Papier sur la stabilisation d'une caméra
+    * http://www.irisa.fr/lagadic/pdf/2001_cviu_cretual.pdf
