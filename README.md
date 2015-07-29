@@ -4,7 +4,7 @@
 * Document explicatif __(fr)__
     * http://www.helimag.com/articles-review/18611-asservissement-et-gyroscopes.html
 * Introduction aux PID __(en)__
-        * https://www.youtube.com/watch?v=UR0hOmjaHp0&list=PL0Lo7ui69SfLka2ire6v9Swzuu4IJMwIe
+    * https://www.youtube.com/watch?v=UR0hOmjaHp0&list=PL0Lo7ui69SfLka2ire6v9Swzuu4IJMwIe
 
 
 ## 2. Exemples:
