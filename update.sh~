@@ -1,2 +1,0 @@
-#!/bin/bash
-cp prototype.wiki/PIDalgorithms.md README.md
