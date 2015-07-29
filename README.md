@@ -10,7 +10,7 @@
 ## 2. Exemples:
 * Avec le contrôle de la trajectoire d'une voiture __(en)__
     * https://www.youtube.com/watch?v=4Y7zG48uHRo
-* Contrôle d'une voiture en fonction des différents algos _(P; PD; PID)_
+* Contrôle d'une voiture en fonction des différents algos _(P; PD; PID)_ __(en)__
     * https://www.youtube.com/watch?v=XfAt6hNV8XM&feature=iv&src_vid=UR0hOmjaHp0&annotation_id=annotation_891845
 * Exemple d'implémentation sans trop de calculs __(fr)__
     * http://www.ferdinandpiette.com/blog/2011/08/implementer-un-pid-sans-faire-de-calculs/
