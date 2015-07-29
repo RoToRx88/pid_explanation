@@ -32,6 +32,6 @@ Tous les x millisecondes, faire :
     erreur_précédente = erreur
 ```
 
-## 4. Annexes
+## 4. Annexe
 * Chaîne youtube de vulgarisation des principes de robotique et physique
     * https://www.youtube.com/user/ControlLectures/playlists
