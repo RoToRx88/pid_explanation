@@ -37,5 +37,3 @@ Tous les x millisecondes, faire :
     * https://www.youtube.com/user/ControlLectures/playlists
 * Papier sur la stabilisation d'une caméra
     * http://www.irisa.fr/lagadic/pdf/2001_cviu_cretual.pdf
-
-##test
