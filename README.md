@@ -32,10 +32,10 @@ Tous les x millisecondes, faire :
     erreur_précédente = erreur
 ```
 
-(E) L'`erreur` est la différence entre la consigne et la valeur mesurée
-(I) `somme_erreurs` est la somme des erreurs au cours du temps. Permet de corriger si il y a une erreur continue dans le temps
-(D) `variation_erreur` permet de savoir si l'erreur est en train de réduire ou de croître
-(O) C'est la commande à appliquer au système 
+* (E) L'`erreur` est la différence entre la consigne et la valeur mesurée
+* (I) `somme_erreurs` est la somme des erreurs au cours du temps. Permet de corriger si il y a une erreur continue dans le temps
+* (D) `variation_erreur` permet de savoir si l'erreur est en train de réduire ou de croître
+* (O) C'est la commande à appliquer au système 
 
 ## 4. Explication des PID __(section en cours de rédaction)__
 
