@@ -25,14 +25,30 @@
 
 ```
 Tous les x millisecondes, faire :
-    erreur = consigne - mesure;
-    somme_erreurs += erreur;
-    variation_erreur = erreur - erreur_précédente;
-    commande = Kp * erreur + Ki * somme_erreurs + Kd * variation_erreur;
+    (E) erreur = consigne - mesure;
+    (I) somme_erreurs += erreur;
+    (D) variation_erreur = erreur - erreur_précédente;
+    (O) commande = Kp * erreur + Ki * somme_erreurs + Kd * variation_erreur;
     erreur_précédente = erreur
 ```
 
-## 4. Annexe
+(E) L'`erreur` est la différence entre la consigne et la valeur mesurée
+(I) `somme_erreurs` est la somme des erreurs au cours du temps. Permet de corriger si il y a une erreur continue dans le temps
+(D) `variation_erreur` permet de savoir si l'erreur est en train de réduire ou de croître
+(O) C'est la commande à appliquer au système 
+
+## 4. Explication des PID __(section en cours de rédaction)__
+
+>"Un régulateur PID ou correcteur PID (pour « proportionnel intégral dérivé ») est un organe de contrôle permettant d’effectuer une régulation en boucle fermée d’une grandeur physique d'un système industriel ou « procédé » (voir Automatique). C’est le régulateur le plus utilisé dans l’industrie, et il permet de régler un grand nombre de grandeurs physiques."
+>_[**source:** Wikipedia](https://fr.wikipedia.org/wiki/R%C3%A9gulateur_PID)_
+
+Cet algorithme prend en entrée la différence entre la consigne et la mesure, traite ses données et donne une correction en sortie.
+Le traitement se déroule en 3 actions:
+* _(Proportionnelle)_ On multiplie l'erreur mesurée par un facteur `Kp`
+* _(Intégrale)_ On intègre l'erreur puis on la divise par le facteur `Ki`
+* _(Dérivée)_ L'erreur est dérivée et multipliée par le facteur `Kd`
+
+## 5. Annexe
 * Chaîne youtube de vulgarisation des principes de robotique et physique
     * https://www.youtube.com/user/ControlLectures/playlists
 * Papier sur la stabilisation d'une caméra
