@@ -53,3 +53,5 @@ Le traitement se déroule en 3 actions:
     * https://www.youtube.com/user/ControlLectures/playlists
 * Papier sur la stabilisation d'une caméra
     * http://www.irisa.fr/lagadic/pdf/2001_cviu_cretual.pdf
+* Vidéo de réglage de PID sur un multirotor
+    * https://www.youtube.com/watch?t=108&v=OeQI49Ubd1Q
