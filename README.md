@@ -1,6 +1,6 @@
 # PID
 
-_Article que j'ai rédigé sur le fonctionnement des PID et les réglages dans le contexte applicatif des multirotors: [allez voir ici] (http://flipnroll.fr/2015/08/29/les-pid-de-p-a-d-tout-ce-quil-faut-savoir-sur-eux/)_
+_Article que j'ai rédigé sur le fonctionnement des PID et les réglages dans le contexte applicatif des multirotors: [allez voir ici] (http://rotorx88.github.io/algorithmie/multirotor/2015/11/02/les-pid-et-les-multirotor.html)_
 
 ## 1. Explications des contrôleurs:
 * Document explicatif __(fr)__
@@ -18,7 +18,7 @@ _Article que j'ai rédigé sur le fonctionnement des PID et les réglages dans l
     * http://www.ferdinandpiette.com/blog/2011/08/implementer-un-pid-sans-faire-de-calculs/
 
 
-## 3. Pseudocode _(récupéré de [ce site](http://www.ferdinandpiette.com/blog/2011/08/implementer-un-pid-sans-faire-de-calculs/))_:
+## 3. Pseudocode _([source](http://www.ferdinandpiette.com/blog/2011/08/implementer-un-pid-sans-faire-de-calculs/))_:
 >`Kp`, `Ki` et `Kd` sont des __constantes__ dans le code dont il faut déterminer les valeurs optimales.
 >__Une grosse partie du travail consistera à déterminer les bonnes valeurs.__
 >Afin de régler de façon optimale les PID, une méthode semble intéressante;
@@ -50,7 +50,7 @@ Le traitement se déroule en 3 actions:
 * _(Intégrale)_ On intègre l'erreur puis on la divise par le facteur `Ki`
 * _(Dérivée)_ L'erreur est dérivée et multipliée par le facteur `Kd`
 
-## 5. Annexe
+## 5. Annexes
 * Chaîne youtube de vulgarisation des principes de robotique et physique
     * https://www.youtube.com/user/ControlLectures/playlists
 * Papier sur la stabilisation d'une caméra
