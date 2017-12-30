@@ -1,7 +1,5 @@
 # PID
 
-_Article que j'ai rédigé sur le fonctionnement des PID et les réglages dans le contexte applicatif des multirotors: [allez voir ici] (http://rotorx88.github.io/algorithmie/multirotor/2015/11/02/les-pid-et-les-multirotor.html)_
-
 ## 1. Explications des contrôleurs:
 * Document explicatif __(fr)__
     * http://www.helimag.com/articles-review/18611-asservissement-et-gyroscopes.html
